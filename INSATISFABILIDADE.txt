@@ -1,0 +1,30 @@
+dog is an animal and has two eyes. animal doesn't have eyes.
+cat eats meat and fish. fish is an animal. cat doesn't eats animal.
+vector carries or transmits pattogens. vector doesn't transmits pattogens.
+animal isn't plant. cat is an animal and plant.
+birds have wings. penguim is a bird that has not wings.
+dog only eats food. dog eats fish. fish isn't food.
+daughter has a grandmother. daughter doesn't have a grandmother.
+humans are animals. animals eats food. humans doesn't eats food.
+father has son. son has father. Ted is a son. Ted doesn't have father.
+Brasil is only located in America. Brasil is located in Africa.
+dogs chase cats. dogs do not chase cats.
+dogs like to chase cats. dogs do not like to chase cats.
+Pete wants to talk with Ann. Pete does not want to talk with Ann.
+Alice works for an insurance company. Alice does not work for an insurance company.
+Sharon makes models from clay. Sharon does not make models from clay.
+the trees will fall over in a storm. the trees won’t fall over in a storm. 
+Oliver didn’t walk to the corner. Oliver walked to the corner.
+Susan writes plays for television. Susan does not write plays for television.
+cathode is an electrode. anode is an electrode. mea doesn't have electrode. mea constains one cathode.
+father drives a car. fathers and mothers are humans. humans doesn't drive car.
+poodle is a pet. children has pet. children doesn't have a poodle.
+Ted is strong. strong isn't weak. Ted is weak.
+father only is a man. human is man or woman. father is human.
+the desert has desease. desease is bed. bed isn't good. desert has good.
+Ted only is married with Julia. Julia only is married with Ted. Ted is married with Marie.
+cow eats food. carnivore doesn't eats grass. grass is food. cow is carnivore. cow eats grass.
+ontology represents knowlege. ontology doesn't represent knowlege.
+proper name is a name. proper name isn't a name.
+milk isn't water and wine. wine is milk and water.
+water has oxygem and hydrogen. water doesn't have oxygen.
