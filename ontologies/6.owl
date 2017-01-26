@@ -1,0 +1,4366 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://test.tcc.uag.ufrpe.edu.br#"
+     xml:base="http://test.tcc.uag.ufrpe.edu.br"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://test.tcc.uag.ufrpe.edu.br"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- ACCEPTEDGAVEACCEPTANCEOf.YEARS -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#ACCEPTEDGAVEACCEPTANCEOf.YEARS">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CREDENCE"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#YEARS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- ACTOf.PRESSURE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#ACTOf.PRESSURE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#DISTENSION"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PRESSURE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- ACTOf.SOMEONE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#ACTOf.SOMEONE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ADMISSION"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SOMEONE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- ACTOf.SOMETHING -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#ACTOf.SOMETHING">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#APPLICATION"/>
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CONSTRUCTION"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SOMETHING"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- ADMIT.SOMEONE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#ADMIT.SOMEONE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ADMISSION"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SOMEONE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- AIROfPARTICLESOf.SUBSTANCE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#AIROfPARTICLESOf.SUBSTANCE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#VAPOR"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SUBSTANCE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- AMERICANOf.- -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#AMERICANOf.-">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BRAGG"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#-"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- APPROVE.GIVE_BLESSING -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#APPROVE.GIVE_BLESSING">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BLESSING"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#GIVE_BLESSING"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- ARRANGEMENTOfROWOf.CHAIR -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#ARRANGEMENTOfROWOf.CHAIR">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ROW"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CHAIR"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- ATTACHEDAt.ARMHOLE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#ATTACHEDAt.ARMHOLE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SLEEVE"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ARMHOLE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- BACKOf.REAR -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#BACKOf.REAR">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#REAR"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#REAR"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- BATTLEOf.- -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#BATTLEOf.-">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BRAGG"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#-"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- BELONG.IN_ENVIRONMENT -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#BELONG.IN_ENVIRONMENT">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#STRANGER"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#IN_ENVIRONMENT"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- BIND.AGREEMENT -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#BIND.AGREEMENT">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CONTRACT"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#AGREEMENT"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- BIND.MORE_PERSON -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#BIND.MORE_PERSON">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CONTRACT"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MORE_PERSON"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- BREAK.INTO_ALCOHOL -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#BREAK.INTO_ALCOHOL">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#FERMENTING"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#INTO_ALCOHOL"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- BRING.SOMETHING -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#BRING.SOMETHING">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#APPLICATION"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SOMETHING"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- BUBBLE.SURFACE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#BUBBLE.SURFACE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BUOYANCY"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SURFACE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- CAUSE.ORGANIC_SUBSTANCE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#CAUSE.ORGANIC_SUBSTANCE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#FERMENTING"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ORGANIC_SUBSTANCE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- CHANGEOf.MOVEMENT -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#CHANGEOf.MOVEMENT">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MOVEMENT"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MOVEMENT"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- CHANGEOfPOSITIONOfMOVEOf.GASTROINTESTINAL_MOTILITY -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#CHANGEOfPOSITIONOfMOVEOf.GASTROINTESTINAL_MOTILITY">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MOVEMENT"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#GASTROINTESTINAL_MOTILITY"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- CIVILOf.- -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#CIVILOf.-">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BRAGG"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#-"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- COMMITTED.OFFENSE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#COMMITTED.OFFENSE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#GUILT"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#OFFENSE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- CONFINE.FREEDOM -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#CONFINE.FREEDOM">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SHACKLE"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#FREEDOM"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- CONSIST.OF_COROLLA -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#CONSIST.OF_COROLLA">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PERIANTH"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#OF_COROLLA"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- CONSTRUCT.CONSTRUCTION -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#CONSTRUCT.CONSTRUCTION">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CONSTRUCTION"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CONSTRUCTION"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- CONSTRUCT.SOMETHING -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#CONSTRUCT.SOMETHING">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CONSTRUCTION"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SOMETHING"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- CONTAIN.OF_CLOUD -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#CONTAIN.OF_CLOUD">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#TUCANA"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#OF_CLOUD"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- DEFINEDBy.COORDINATE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#DEFINEDBy.COORDINATE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#POINT"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#COORDINATE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- DETECTIONOf.LUNG -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#DETECTIONOf.LUNG">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#DEFECT"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#LUNG"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- DEVELOP.ABILITY -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#DEVELOP.ABILITY">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ORGANISM"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ABILITY"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- DIGNIFY.ABRASIVE_FASHION -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#DIGNIFY.ABRASIVE_FASHION">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MODE"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ABRASIVE_FASHION"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- DIGNIFY.LIFE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#DIGNIFY.LIFE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MODE"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#LIFE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- DIVISIONOfSTANDARDOfDOLLAROf.CURRENCY -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#DIVISIONOfSTANDARDOfDOLLAROf.CURRENCY">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#UNIT"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CURRENCY"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- DONEMANNEROfTALKINGOfEXISTENCEOf.LIFE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#DONEMANNEROfTALKINGOfEXISTENCEOf.LIFE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MODE"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#LIFE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- EDUCATE.YOUNG_PEOPLE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#EDUCATE.YOUNG_PEOPLE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#EDUCATOR"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#YOUNG_PEOPLE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- ENCLOSE.PISTIL -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#ENCLOSE.PISTIL">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PERIANTH"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PISTIL"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- ENCLOSE.STAMEN -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#ENCLOSE.STAMEN">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PERIANTH"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#STAMEN"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- EVENTOf.SOMETHING -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#EVENTOf.SOMETHING">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#TOUCH"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SOMETHING"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- EXISTENCEOf.LIFE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#EXISTENCEOf.LIFE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MODE"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#LIFE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- EXPAND.BY_PRESSURE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#EXPAND.BY_PRESSURE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#DISTENSION"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BY_PRESSURE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- EXPLAIN.CERTAIN_FACT -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#EXPLAIN.CERTAIN_FACT">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#HYPOTHESIS"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CERTAIN_FACT"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- EXPLAIN.OBSERVATION -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#EXPLAIN.OBSERVATION">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#HYPOTHESIS"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#OBSERVATION"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- FEEL.DESIRE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#FEEL.DESIRE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SATISFACTION"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#DESIRE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- FISHINGOf.ROAD -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#FISHINGOf.ROAD">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SEGMENT"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ROAD"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- FIT.WITH_OTHER -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#FIT.WITH_OTHER">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SEGMENT"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#WITH_OTHER"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- FOLLOW.MARCH -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#FOLLOW.MARCH">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#APRIL"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MARCH"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- FOLLOW.MAY -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#FOLLOW.MAY">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#APRIL"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MAY"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- FOLLOW.PRECEDING -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#FOLLOW.PRECEDING">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#APRIL"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PRECEDING"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- FULFILLED.GREAT_SATISFACTION -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#FULFILLED.GREAT_SATISFACTION">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SATISFACTION"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#GREAT_SATISFACTION"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- GIVE.PHONE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#GIVE.PHONE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#AID"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PHONE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- GIVE.TECHNICAL_ASSISTANCE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#GIVE.TECHNICAL_ASSISTANCE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#AID"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#TECHNICAL_ASSISTANCE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- GRAINOfGRAINOf.SUGAR -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#GRAINOfGRAINOf.SUGAR">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#GRAIN"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SUGAR"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- GRANTOf.- -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#GRANTOf.-">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BRAGG"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#-"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- GROUPOf.WATER -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#GROUPOf.WATER">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ARCHIPELAGO"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#WATER"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- HATCH.FROM_EGG -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#HATCH.FROM_EGG">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#LARVA"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#FROM_EGG"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- HAVE.ABILITY -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#HAVE.ABILITY">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ORGANISM"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ABILITY"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- HAVE.ELEMENT -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#HAVE.ELEMENT">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ATOM"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ELEMENT"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- HAVE.EXTENSION -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#HAVE.EXTENSION">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#POINT"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#EXTENSION"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- HAVE.METAL -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#HAVE.METAL">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SILVER"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#METAL"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- HAVE.POINT -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#HAVE.POINT">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#POINT"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#POINT"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- HAVE.POSITION -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#HAVE.POSITION">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#POINT"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#POSITION"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- HAVE.THERMAL_CONDUCTIVITY -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#HAVE.THERMAL_CONDUCTIVITY">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SILVER"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#THERMAL_CONDUCTIVITY"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- HELP.SOMETHING -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#HELP.SOMETHING">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#AID"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SOMETHING"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- INCLUDE.NERVOUS_CENTER -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#INCLUDE.NERVOUS_CENTER">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BRAIN"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#NERVOUS_CENTER"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- INCLUDE.SKULL -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#INCLUDE.SKULL">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BRAIN"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SKULL"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- INCLUDE.SPINAL_CORD -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#INCLUDE.SPINAL_CORD">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BRAIN"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SPINAL_CORD"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- INDICATE.BOUNDARY -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#INDICATE.BOUNDARY">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BORDER"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BOUNDARY"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- INTENDED.PLANNED_ACTION -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#INTENDED.PLANNED_ACTION">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#AIM"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PLANNED_ACTION"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- InTOUCHOf.HAND -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#InTOUCHOf.HAND">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#TOUCH"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#HAND"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- JUT.INTO_SEA -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#JUT.INTO_SEA">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#HEADLAND"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#INTO_SEA"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- KEEP.EXTREMITY -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#KEEP.EXTREMITY">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#APPENDAGE"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#EXTREMITY"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- LACKOf.ATTENTION -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#LACKOf.ATTENTION">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#INATTENTION"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ATTENTION"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- LET.IN_AIR -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#LET.IN_AIR">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#AIR"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#IN_AIR"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- LIVE.THING -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#LIVE.THING">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ORGANISM"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#THING"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- MAKE.SOMETHING -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#MAKE.SOMETHING">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#AID"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SOMETHING"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- MAN.AIRCRAFT -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#MAN.AIRCRAFT">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CREW"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#AIRCRAFT"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- MAN.ETC. -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#MAN.ETC.">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CREW"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ETC."/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- MAN.SHIP -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#MAN.SHIP">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CREW"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SHIP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- MAN.VEHICLE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#MAN.VEHICLE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CREW"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#VEHICLE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- MANNEROfTALKINGOfEXISTENCEOf.LIFE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#MANNEROfTALKINGOfEXISTENCEOf.LIFE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MODE"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#LIFE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- MIXTUREOf.WIND -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#MIXTUREOf.WIND">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#AIR"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#WIND"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- OCCUR.IN_NUCLEAR_WEAPON -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#OCCUR.IN_NUCLEAR_WEAPON">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#URANIUM"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#IN_NUCLEAR_WEAPON"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- OCCUR.IN_PHOTOGRAPHY -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#OCCUR.IN_PHOTOGRAPHY">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SILVER"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#IN_PHOTOGRAPHY"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- OPEN.WINDOW -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#OPEN.WINDOW">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#AIR"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#WINDOW"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- OfSMELLOf.AIR -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#OfSMELLOf.AIR">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#AIR"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#AIR"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- PARTICLESOf.SUBSTANCE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#PARTICLESOf.SUBSTANCE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#VAPOR"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SUBSTANCE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- PARTOf.GARMENT -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#PARTOf.GARMENT">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SLEEVE"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#GARMENT"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- PERSONIFICATIONOf.OPTIMISM -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#PERSONIFICATIONOf.OPTIMISM">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PERSONIFICATION"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#OPTIMISM"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- PERSONOf.OPTIMISM -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#PERSONOf.OPTIMISM">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PERSONIFICATION"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#OPTIMISM"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- PROCESSOf.CHEMICAL_COMPOUND_OF_SIMPLER_CHEMICAL -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#PROCESSOf.CHEMICAL_COMPOUND_OF_SIMPLER_CHEMICAL">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SYNTHESIS"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CHEMICAL_COMPOUND_OF_SIMPLER_CHEMICAL"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- PRODUCE.COMPOUND -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#PRODUCE.COMPOUND">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SYNTHESIS"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#COMPOUND"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- PRODUCE.SIMPLER_CHEMICAL -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#PRODUCE.SIMPLER_CHEMICAL">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SYNTHESIS"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SIMPLER_CHEMICAL"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- PRODUCE.UNION -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#PRODUCE.UNION">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SYNTHESIS"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#UNION"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- PROJECT.FROM_BODY -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#PROJECT.FROM_BODY">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#APPENDAGE"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#FROM_BODY"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- REPRESENT.ABSTRACT_QUALITY -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#REPRESENT.ABSTRACT_QUALITY">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PERSONIFICATION"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ABSTRACT_QUALITY"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- REPRODUCTIONOfE.G.Of.RECORD -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#REPRODUCTIONOfE.G.Of.RECORD">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#COPY"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#RECORD"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- RESTRAIN.PRISONER -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#RESTRAIN.PRISONER">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SHACKLE"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PRISONER"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- RESTRICT.FREEDOM -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#RESTRICT.FREEDOM">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SHACKLE"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#FREEDOM"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- RESTRICT.SOMETHING -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#RESTRICT.SOMETHING">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SHACKLE"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SOMETHING"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- RESULT.LISTEN_FOR_RADIO -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#RESULT.LISTEN_FOR_RADIO">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#OUTCOME"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#LISTEN_FOR_RADIO"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- SECTIONOf.ROAD -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#SECTIONOf.ROAD">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SEGMENT"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ROAD"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- SIGNOfMOVEOf.GASTROINTESTINAL_MOTILITY -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#SIGNOfMOVEOf.GASTROINTESTINAL_MOTILITY">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MOVEMENT"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#GASTROINTESTINAL_MOTILITY"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- STATEOf.OFFENSE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#STATEOf.OFFENSE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#GUILT"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#OFFENSE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- STYLEOf.LIFE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#STYLEOf.LIFE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MODE"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#LIFE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- SUBSTANCEOfGRAINOf.SUGAR -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#SUBSTANCEOfGRAINOf.SUGAR">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#GRAIN"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SUGAR"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- TAKE.DETOUR -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#TAKE.DETOUR">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CONSTRUCTION"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#DETOUR"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- TALKINGOfEXISTENCEOf.LIFE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#TALKINGOfEXISTENCEOf.LIFE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MODE"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#LIFE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- THINGSOf.WOOD -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#THINGSOf.WOOD">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#WOODWORKER"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#WOOD"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- TIE.PRISONER -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#TIE.PRISONER">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SHACKLE"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PRISONER"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- TIMEOf.DAY -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#TIMEOf.DAY">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CLOCK"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#DAY"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- TOUCHOf.AIR -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#TOUCHOf.AIR">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#TOUCH"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#AIR"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- ThatPARTOf.NERVOUS_SYSTEM -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#ThatPARTOf.NERVOUS_SYSTEM">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BRAIN"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#NERVOUS_SYSTEM"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- UNITOf.MINUTE_MILE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#UNITOf.MINUTE_MILE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MINUTE"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MINUTE_MILE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- USEDAs.PAYMENT -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#USEDAs.PAYMENT">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#TENDER"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PAYMENT"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- WAROf.- -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#WAROf.-">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BRAGG"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#-"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- WEEKSOf.SUMMER -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#WEEKSOf.SUMMER">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#VACATION"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SUMMER"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- WORDOf.SEVERAL_WORDS -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#WORDOf.SEVERAL_WORDS">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#INITIALISM"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SEVERAL_WORDS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- WRITE.ABOUT -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#WRITE.ABOUT">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#HISTORIAN"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ABOUT"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- YORKOf.LIFE -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#YORKOf.LIFE">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MODE"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#LIFE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- FORMAL_ACT_OF_PROJECT -->
+
+    <owl:ObjectProperty rdf:about="http://test.tcc.uag.ufrpe.edu.br#.FORMAL_ACT_OF_PROJECT">
+        <rdfs:domain rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BLESSING"/>
+        <rdfs:range rdf:resource="http://test.tcc.uag.ufrpe.edu.br#FORMAL_ACT_OF_PROJECT"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- ABDOMINAL_CAVITY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ABDOMINAL_CAVITY"/>
+    
+
+
+    <!-- ABILITY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ABILITY"/>
+    
+
+
+    <!-- ABOUT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ABOUT"/>
+    
+
+
+    <!-- ABRASIVE_FASHION -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ABRASIVE_FASHION"/>
+    
+
+
+    <!-- ABSTRACT_QUALITY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ABSTRACT_QUALITY"/>
+    
+
+
+    <!-- ADMISSION -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ADMISSION">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ACTOf.SOMEONE"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SOMEONE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ADMIT.SOMEONE"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SOMEONE"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- AGENT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#AGENT"/>
+    
+
+
+    <!-- AGREEMENT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#AGREEMENT"/>
+    
+
+
+    <!-- AID -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#AID">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#RESOURCE"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#PERSON"/>
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#THING"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MAKE.SOMETHING"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SOMETHING"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#GIVE.PHONE"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PHONE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#GIVE.TECHNICAL_ASSISTANCE"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#TECHNICAL_ASSISTANCE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#HELP.SOMETHING"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SOMETHING"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- AIM -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#AIM">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#ANTICIPATED_OUTCOME"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#INTENDED.PLANNED_ACTION"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PLANNED_ACTION"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#INTENDED.PLANNED_ACTION"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PLANNED_ACTION"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- AIR -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#AIR">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MIXTUREOf.WIND"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#WIND"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#LET.IN_AIR"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#IN_AIR"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MIXTUREOf.WIND"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#WIND"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#OPEN.WINDOW"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#WINDOW"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#OfSMELLOf.AIR"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#AIR"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- AIR-BREATHING_ARTHROPOD -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#AIR-BREATHING_ARTHROPOD"/>
+    
+
+
+    <!-- AIRCRAFT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#AIRCRAFT"/>
+    
+
+
+    <!-- ALE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ALE">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#BEER"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#GENERAL_NAME"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#TOP_FERMENTING"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#YEAST"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- AMERICA -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#AMERICA"/>
+    
+
+
+    <!-- AMPHIBIAN -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#AMPHIBIAN"/>
+    
+
+
+    <!-- ANCHOR -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ANCHOR"/>
+    
+
+
+    <!-- ANIMAL -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ANIMAL"/>
+    
+
+
+    <!-- ANIMATING -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ANIMATING">
+        <rdfs:subClassOf rdf:resource="http://test.tcc.uag.ufrpe.edu.br#THING"/>
+    </owl:Class>
+    
+
+
+    <!-- ANTICIPATED_OUTCOME -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ANTICIPATED_OUTCOME"/>
+    
+
+
+    <!-- ANYONE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ANYONE"/>
+    
+
+
+    <!-- APPENDAGE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#APPENDAGE">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#EXTERNAL_BODY"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#EXTREMITY"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#PART"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#KEEP.EXTREMITY"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#EXTREMITY"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PROJECT.FROM_BODY"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#FROM_BODY"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- APPLICATION -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#APPLICATION">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ACTOf.SOMETHING"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SOMETHING"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BRING.SOMETHING"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SOMETHING"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- APRIL -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#APRIL"/>
+    
+
+
+    <!-- ARAB -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ARAB"/>
+    
+
+
+    <!-- ARCHIPELAGO -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ARCHIPELAGO">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#GROUPOf.WATER"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#WATER"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ARMHOLE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ARMHOLE"/>
+    
+
+
+    <!-- ARMY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ARMY"/>
+    
+
+
+    <!-- ATOM -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ATOM">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#CHEMISTRY"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#ELEMENT"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#SMALLEST_COMPONENT"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#HAVE.ELEMENT"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ELEMENT"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ATTENTION -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ATTENTION"/>
+    
+
+
+    <!-- AUTHORITATIVE_RULE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#AUTHORITATIVE_RULE"/>
+    
+
+
+    <!-- AUTHORITY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#AUTHORITY"/>
+    
+
+
+    <!-- BARS -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#BARS"/>
+    
+
+
+    <!-- BASEBALL -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#BASEBALL"/>
+    
+
+
+    <!-- BEER -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#BEER"/>
+    
+
+
+    <!-- BIRD -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#BIRD"/>
+    
+
+
+    <!-- BLESSING -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#BLESSING">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#APPROVE.GIVE_BLESSING"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#GIVE_BLESSING"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#.FORMAL_ACT_OF_PROJECT"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#FORMAL_ACT_OF_PROJECT"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- BODILY_SYSTEM -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#BODILY_SYSTEM"/>
+    
+
+
+    <!-- BODY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#BODY">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#HUMAN"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#PHYSICAL_STRUCTURE"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#ANIMAL"/>
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#ORGANISM"/>
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#PLANT"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- BORDER -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#BORDER">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#LINE"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#INDICATE.BOUNDARY"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BOUNDARY"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- BOROUGH -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#BOROUGH">
+        <rdfs:subClassOf rdf:resource="http://test.tcc.uag.ufrpe.edu.br#OF_LARGE_CITY"/>
+    </owl:Class>
+    
+
+
+    <!-- BOUNDARY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#BOUNDARY"/>
+    
+
+
+    <!-- BRAGG -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#BRAGG"/>
+    
+
+
+    <!-- BRAIN -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#BRAIN">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#INCLUDE.NERVOUS_CENTER"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#NERVOUS_CENTER"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#INCLUDE.SKULL"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SKULL"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#INCLUDE.SPINAL_CORD"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SPINAL_CORD"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ThatPARTOf.NERVOUS_SYSTEM"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#NERVOUS_SYSTEM"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- BUOYANCY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#BUOYANCY">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#CHEERFULNESS"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BUBBLE.SURFACE"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SURFACE"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- BY_ENFORCEABLE_LAW -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#BY_ENFORCEABLE_LAW"/>
+    
+
+
+    <!-- BY_PRESSURE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#BY_PRESSURE"/>
+    
+
+
+    <!-- CAGE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#CAGE">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#BARS"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#KEEP"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#ANIMAL"/>
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#BIRD"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#ENCLOSURE"/>
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#METAL"/>
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#WIRE"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- CATHEDRAL -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#CATHEDRAL">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#IMPORTANT_CHURCH"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#LARGE_CHURCH"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- CERTAIN_FACT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#CERTAIN_FACT"/>
+    
+
+
+    <!-- CHAIR -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#CHAIR"/>
+    
+
+
+    <!-- CHATTANOOGA -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#CHATTANOOGA"/>
+    
+
+
+    <!-- CHEERFULNESS -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#CHEERFULNESS"/>
+    
+
+
+    <!-- CHEMICAL_COMPOUND_OF_SIMPLER_CHEMICAL -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#CHEMICAL_COMPOUND_OF_SIMPLER_CHEMICAL"/>
+    
+
+
+    <!-- CHEMISTRY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#CHEMISTRY"/>
+    
+
+
+    <!-- CITY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#CITY">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#LARGE_AREA"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#POPULATED_AREA"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#URBAN_AREA"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- CLOCK -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#CLOCK">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#TIMEPIECE"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#TIMEOf.DAY"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#DAY"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- COARSE_HAIR -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#COARSE_HAIR"/>
+    
+
+
+    <!-- COHESIVE_SOURCE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#COHESIVE_SOURCE"/>
+    
+
+
+    <!-- COMPOUND -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#COMPOUND"/>
+    
+
+
+    <!-- CONSTRUCTION -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#CONSTRUCTION">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ACTOf.SOMETHING"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SOMETHING"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CONSTRUCT.CONSTRUCTION"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CONSTRUCTION"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CONSTRUCT.SOMETHING"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SOMETHING"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#TAKE.DETOUR"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#DETOUR"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- CONTENTMENT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#CONTENTMENT"/>
+    
+
+
+    <!-- CONTEST -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#CONTEST"/>
+    
+
+
+    <!-- CONTRACT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#CONTRACT">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#AGREEMENT"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#BY_ENFORCEABLE_LAW"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BIND.AGREEMENT"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#AGREEMENT"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BIND.MORE_PERSON"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MORE_PERSON"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- CONVINCING -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#CONVINCING"/>
+    
+
+
+    <!-- COORDINATE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#COORDINATE"/>
+    
+
+
+    <!-- COPY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#COPY">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#REPRODUCTIONOfE.G.Of.RECORD"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#RECORD"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- CREDENCE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#CREDENCE">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#MENTAL_ATTITUDE"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#SOMETHING"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#TRUE_CREDENCE"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ACCEPTEDGAVEACCEPTANCEOf.YEARS"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#YEARS"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- CREW -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#CREW">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#MAN"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#WOMAN"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MAN.AIRCRAFT"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#AIRCRAFT"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MAN.ETC."/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ETC."/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MAN.SHIP"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SHIP"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MAN.VEHICLE"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#VEHICLE"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- CURRENCY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#CURRENCY"/>
+    
+
+
+    <!-- DAY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#DAY"/>
+    
+
+
+    <!-- DEFEAT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#DEFEAT">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#ARMY"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#CONVINCING"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#NARROW_DEFEAT"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#ONLY_DEFEAT"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#UNSUCCESSFUL_ENDING"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#CONTEST"/>
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#STRUGGLE"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- DEFECT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#DEFECT">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#BODILY_SYSTEM"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#DEVICE"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#IMPERFECTION"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#VISUAL_DEFECT"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#DETECTIONOf.LUNG"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#LUNG"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- DESIRE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#DESIRE"/>
+    
+
+
+    <!-- DETOUR -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#DETOUR"/>
+    
+
+
+    <!-- DEVICE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#DEVICE"/>
+    
+
+
+    <!-- DISTENSION -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#DISTENSION">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ACTOf.PRESSURE"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PRESSURE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#EXPAND.BY_PRESSURE"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BY_PRESSURE"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- EDUCATOR -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#EDUCATOR">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#SOMEONE"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#EDUCATE.YOUNG_PEOPLE"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#YOUNG_PEOPLE"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- EGOTISM -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#EGOTISM">
+        <rdfs:subClassOf rdf:resource="http://test.tcc.uag.ufrpe.edu.br#OWN_IMPORTANCE"/>
+    </owl:Class>
+    
+
+
+    <!-- ELEMENT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ELEMENT"/>
+    
+
+
+    <!-- ELONGATION -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ELONGATION"/>
+    
+
+
+    <!-- EMOTION -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#EMOTION"/>
+    
+
+
+    <!-- ENCLOSURE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ENCLOSURE"/>
+    
+
+
+    <!-- EQUAL_METER -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#EQUAL_METER"/>
+    
+
+
+    <!-- ETC. -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ETC."/>
+    
+
+
+    <!-- EXCLUDE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#EXCLUDE"/>
+    
+
+
+    <!-- EXCLUSION -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#EXCLUSION">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#EXCLUDE"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#STATE_OF"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- EXTENSION -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#EXTENSION"/>
+    
+
+
+    <!-- EXTERNAL_BODY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#EXTERNAL_BODY"/>
+    
+
+
+    <!-- EXTREMITY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#EXTREMITY"/>
+    
+
+
+    <!-- FAINT_CONSTELLATION -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#FAINT_CONSTELLATION"/>
+    
+
+
+    <!-- FAITH -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#FAITH"/>
+    
+
+
+    <!-- FERMENTING -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#FERMENTING">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#AGENT"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#PROCESS"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BREAK.INTO_ALCOHOL"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#INTO_ALCOHOL"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CAUSE.ORGANIC_SUBSTANCE"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ORGANIC_SUBSTANCE"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BREAK.INTO_ALCOHOL"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#INTO_ALCOHOL"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- FIELDER -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#FIELDER"/>
+    
+
+
+    <!-- FILAMENT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#FILAMENT"/>
+    
+
+
+    <!-- FIND -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#FIND"/>
+    
+
+
+    <!-- FISH -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#FISH"/>
+    
+
+
+    <!-- FLOWER -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#FLOWER"/>
+    
+
+
+    <!-- FORMAL_ACT_OF_PROJECT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#FORMAL_ACT_OF_PROJECT"/>
+    
+
+
+    <!-- FREE-LIVING_FORM -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#FREE-LIVING_FORM"/>
+    
+
+
+    <!-- FREEDOM -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#FREEDOM"/>
+    
+
+
+    <!-- FROM_BODY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#FROM_BODY"/>
+    
+
+
+    <!-- FROM_EGG -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#FROM_EGG"/>
+    
+
+
+    <!-- FUTURE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#FUTURE">
+        <rdfs:subClassOf rdf:resource="http://test.tcc.uag.ufrpe.edu.br#TIME"/>
+    </owl:Class>
+    
+
+
+    <!-- GARMENT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#GARMENT"/>
+    
+
+
+    <!-- GASTROINTESTINAL_MOTILITY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#GASTROINTESTINAL_MOTILITY"/>
+    
+
+
+    <!-- GENERAL_NAME -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#GENERAL_NAME"/>
+    
+
+
+    <!-- GEOMETRIC_ELEMENT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#GEOMETRIC_ELEMENT"/>
+    
+
+
+    <!-- GIVE_BLESSING -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#GIVE_BLESSING"/>
+    
+
+
+    <!-- GLOVE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#GLOVE">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#BASEBALL"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#FIELDER"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#HANDWEAR"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#PLAYING"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- GRAIN -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#GRAIN">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#GRANULAR_PARTICLE"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#GRAINOfGRAINOf.SUGAR"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SUGAR"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SUBSTANCEOfGRAINOf.SUGAR"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SUGAR"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- GRANULAR_PARTICLE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#GRANULAR_PARTICLE"/>
+    
+
+
+    <!-- GRASSLIKE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#GRASSLIKE">
+        <rdfs:subClassOf rdf:resource="http://test.tcc.uag.ufrpe.edu.br#THING"/>
+    </owl:Class>
+    
+
+
+    <!-- GREAT_SATISFACTION -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#GREAT_SATISFACTION"/>
+    
+
+
+    <!-- GUILT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#GUILT">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#COMMITTED.OFFENSE"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#OFFENSE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#STATEOf.OFFENSE"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#OFFENSE"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- GULF -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#GULF"/>
+    
+
+
+    <!-- HAND -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#HAND"/>
+    
+
+
+    <!-- HANDWEAR -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#HANDWEAR"/>
+    
+
+
+    <!-- HEAD -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#HEAD"/>
+    
+
+
+    <!-- HEADLAND -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#HEADLAND">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#NATURAL_ELEVATION"/>
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#ROCKY_ONE"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#JUT.INTO_SEA"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#INTO_SEA"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- HEAVY_ELEMENT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#HEAVY_ELEMENT"/>
+    
+
+
+    <!-- HISTORIAN -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#HISTORIAN">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#AUTHORITY"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#HISTORY"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#PERSON"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#WRITE.ABOUT"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ABOUT"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- HISTORY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#HISTORY"/>
+    
+
+
+    <!-- HUMAN -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#HUMAN"/>
+    
+
+
+    <!-- HYPOTHESIS -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#HYPOTHESIS">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#PROPOSAL"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#EXPLAIN.CERTAIN_FACT"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CERTAIN_FACT"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#EXPLAIN.OBSERVATION"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#OBSERVATION"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- IMPERFECTION -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#IMPERFECTION"/>
+    
+
+
+    <!-- IMPORTANT_CHURCH -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#IMPORTANT_CHURCH"/>
+    
+
+
+    <!-- IMPORTANT_OIL -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#IMPORTANT_OIL"/>
+    
+
+
+    <!-- INATTENTION -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#INATTENTION">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#LACKOf.ATTENTION"/>
+                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ATTENTION"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- INDEPENDENT_SPAIN -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#INDEPENDENT_SPAIN"/>
+    
+
+
+    <!-- INITIALISM -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#INITIALISM">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#NAME"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#SEVERAL_WORDS"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#WORD"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#WORDOf.SEVERAL_WORDS"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SEVERAL_WORDS"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- INSECT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#INSECT">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#AIR-BREATHING_ARTHROPOD"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#SMALL_ARTHROPOD"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- INTERNAL_ORGANS -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#INTERNAL_ORGANS"/>
+    
+
+
+    <!-- INTERNATIONAL -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#INTERNATIONAL"/>
+    
+
+
+    <!-- INTO_ALCOHOL -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#INTO_ALCOHOL"/>
+    
+
+
+    <!-- INTO_SEA -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#INTO_SEA"/>
+    
+
+
+    <!-- IN_AIR -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#IN_AIR"/>
+    
+
+
+    <!-- IN_ENVIRONMENT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#IN_ENVIRONMENT"/>
+    
+
+
+    <!-- IN_NUCLEAR_WEAPON -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#IN_NUCLEAR_WEAPON"/>
+    
+
+
+    <!-- IN_PHOTOGRAPHY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#IN_PHOTOGRAPHY"/>
+    
+
+
+    <!-- KEEP -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#KEEP"/>
+    
+
+
+    <!-- KILOMETER -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#KILOMETER">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#LENGTH"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#EQUAL_METER"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- LARGE_AREA -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#LARGE_AREA"/>
+    
+
+
+    <!-- LARGE_CHURCH -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#LARGE_CHURCH"/>
+    
+
+
+    <!-- LARGE_CONSTELLATION -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#LARGE_CONSTELLATION"/>
+    
+
+
+    <!-- LARVA -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#LARVA">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#AMPHIBIAN"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#FISH"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#FREE-LIVING_FORM"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#MOST_INVERTEBRATE"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#UNLIKE_PARENT"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#HATCH.FROM_EGG"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#FROM_EGG"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- LEISURE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#LEISURE"/>
+    
+
+
+    <!-- LENGTH -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#LENGTH"/>
+    
+
+
+    <!-- LIFE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#LIFE"/>
+    
+
+
+    <!-- LINCHPIN -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#LINCHPIN">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#ANCHOR"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#COHESIVE_SOURCE"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#FAITH"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#STABILITY"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#SUPPORT"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- LINE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#LINE"/>
+    
+
+
+    <!-- LISTEN_FOR_RADIO -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#LISTEN_FOR_RADIO"/>
+    
+
+
+    <!-- LUNG -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#LUNG"/>
+    
+
+
+    <!-- MAN -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#MAN"/>
+    
+
+
+    <!-- MARCH -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#MARCH"/>
+    
+
+
+    <!-- MAY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#MAY"/>
+    
+
+
+    <!-- MENTAL_ATTITUDE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#MENTAL_ATTITUDE"/>
+    
+
+
+    <!-- METAL -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#METAL"/>
+    
+
+
+    <!-- METALLIC_ELEMENT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#METALLIC_ELEMENT"/>
+    
+
+
+    <!-- METER -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#METER">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#INTERNATIONAL"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#LENGTH"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#SYSTEME"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#D&apos;UNITE"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- MINUTE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#MINUTE">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#UNITOf.MINUTE_MILE"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MINUTE_MILE"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- MINUTE_MILE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#MINUTE_MILE"/>
+    
+
+
+    <!-- MOB -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#MOB">
+        <rdfs:subClassOf rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PEOPLE"/>
+    </owl:Class>
+    
+
+
+    <!-- MODE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#MODE">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#SOMETHING"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#DONEMANNEROfTALKINGOfEXISTENCEOf.LIFE"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#LIFE"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MANNEROfTALKINGOfEXISTENCEOf.LIFE"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#LIFE"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#DIGNIFY.ABRASIVE_FASHION"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ABRASIVE_FASHION"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#DIGNIFY.LIFE"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#LIFE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#EXISTENCEOf.LIFE"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#LIFE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MANNEROfTALKINGOfEXISTENCEOf.LIFE"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#LIFE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#STYLEOf.LIFE"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#LIFE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#TALKINGOfEXISTENCEOf.LIFE"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#LIFE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#YORKOf.LIFE"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#LIFE"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- MONTH -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#MONTH"/>
+    
+
+
+    <!-- MORE_PERSON -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#MORE_PERSON"/>
+    
+
+
+    <!-- MOST_INVERTEBRATE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#MOST_INVERTEBRATE"/>
+    
+
+
+    <!-- MOVEMENT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#MOVEMENT">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CHANGEOf.MOVEMENT"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MOVEMENT"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CHANGEOfPOSITIONOfMOVEOf.GASTROINTESTINAL_MOTILITY"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#GASTROINTESTINAL_MOTILITY"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SIGNOfMOVEOf.GASTROINTESTINAL_MOTILITY"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#GASTROINTESTINAL_MOTILITY"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- NAME -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#NAME"/>
+    
+
+
+    <!-- NARROW_DEFEAT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#NARROW_DEFEAT"/>
+    
+
+
+    <!-- NATURAL_ELEVATION -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#NATURAL_ELEVATION"/>
+    
+
+
+    <!-- NATURAL_SYNTHETIC -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#NATURAL_SYNTHETIC"/>
+    
+
+
+    <!-- NERVOUS_CENTER -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#NERVOUS_CENTER"/>
+    
+
+
+    <!-- NERVOUS_SYSTEM -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#NERVOUS_SYSTEM"/>
+    
+
+
+    <!-- NOSE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#NOSE"/>
+    
+
+
+    <!-- OBSERVATION -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#OBSERVATION"/>
+    
+
+
+    <!-- OFFENSE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#OFFENSE"/>
+    
+
+
+    <!-- OF_CLOUD -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#OF_CLOUD"/>
+    
+
+
+    <!-- OF_COROLLA -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#OF_COROLLA"/>
+    
+
+
+    <!-- OF_LARGE_CITY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#OF_LARGE_CITY"/>
+    
+
+
+    <!-- OF_PIECE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#OF_PIECE"/>
+    
+
+
+    <!-- ONLY_DEFEAT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ONLY_DEFEAT"/>
+    
+
+
+    <!-- OPTIMISM -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#OPTIMISM"/>
+    
+
+
+    <!-- ORDINANCE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ORDINANCE">
+        <rdfs:subClassOf rdf:resource="http://test.tcc.uag.ufrpe.edu.br#AUTHORITATIVE_RULE"/>
+    </owl:Class>
+    
+
+
+    <!-- ORGANIC_SUBSTANCE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ORGANIC_SUBSTANCE"/>
+    
+
+
+    <!-- ORGANISM -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ORGANISM">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#THING"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#HAVE.ABILITY"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ABILITY"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#DEVELOP.ABILITY"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ABILITY"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#LIVE.THING"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#THING"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- OUTBURST -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#OUTBURST">
+        <rdfs:subClassOf rdf:resource="http://test.tcc.uag.ufrpe.edu.br#EMOTION"/>
+    </owl:Class>
+    
+
+
+    <!-- OUTCOME -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#OUTCOME">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#SOMETHING"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#RESULT.LISTEN_FOR_RADIO"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#LISTEN_FOR_RADIO"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- OWN_IMPORTANCE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#OWN_IMPORTANCE"/>
+    
+
+
+    <!-- PART -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#PART"/>
+    
+
+
+    <!-- PAYMENT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#PAYMENT"/>
+    
+
+
+    <!-- PENINSULA -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#PENINSULA"/>
+    
+
+
+    <!-- PEOPLE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#PEOPLE"/>
+    
+
+
+    <!-- PERIANTH -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#PERIANTH">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#FLOWER"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CONSIST.OF_COROLLA"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#OF_COROLLA"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ENCLOSE.PISTIL"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PISTIL"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ENCLOSE.STAMEN"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#STAMEN"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- PERSIAN -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#PERSIAN"/>
+    
+
+
+    <!-- PERSON -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#PERSON"/>
+    
+
+
+    <!-- PERSONIFICATION -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#PERSONIFICATION">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PERSONIFICATIONOf.OPTIMISM"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#OPTIMISM"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PERSONOf.OPTIMISM"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#OPTIMISM"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#REPRESENT.ABSTRACT_QUALITY"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ABSTRACT_QUALITY"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- PHONE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#PHONE"/>
+    
+
+
+    <!-- PHYSICAL_STRUCTURE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#PHYSICAL_STRUCTURE"/>
+    
+
+
+    <!-- PISTIL -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#PISTIL"/>
+    
+
+
+    <!-- PLANNED_ACTION -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#PLANNED_ACTION"/>
+    
+
+
+    <!-- PLANT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#PLANT"/>
+    
+
+
+    <!-- PLASTIC -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#PLASTIC"/>
+    
+
+
+    <!-- PLAYING -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#PLAYING"/>
+    
+
+
+    <!-- PLEASURE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#PLEASURE"/>
+    
+
+
+    <!-- POINT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#POINT">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#GEOMETRIC_ELEMENT"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#DEFINEDBy.COORDINATE"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#COORDINATE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#HAVE.EXTENSION"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#EXTENSION"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#HAVE.POINT"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#POINT"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#HAVE.POSITION"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#POSITION"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- POLE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#POLE">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#ROD"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#METAL"/>
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#PLASTIC"/>
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#WOOD"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- POPULATED_AREA -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#POPULATED_AREA"/>
+    
+
+
+    <!-- POSITION -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#POSITION"/>
+    
+
+
+    <!-- PRECEDING -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#PRECEDING"/>
+    
+
+
+    <!-- PRECIOUS_ELEMENT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#PRECIOUS_ELEMENT"/>
+    
+
+
+    <!-- PRESSURE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#PRESSURE"/>
+    
+
+
+    <!-- PRISONER -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#PRISONER"/>
+    
+
+
+    <!-- PROCESS -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#PROCESS"/>
+    
+
+
+    <!-- PROPOSAL -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#PROPOSAL"/>
+    
+
+
+    <!-- RADIOACTIVE_ELEMENT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#RADIOACTIVE_ELEMENT"/>
+    
+
+
+    <!-- REAR -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#REAR">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BACKOf.REAR"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#REAR"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BACKOf.REAR"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#REAR"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- RECORD -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#RECORD"/>
+    
+
+
+    <!-- RED -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#RED"/>
+    
+
+
+    <!-- REPRODUCTIVE_ORGAN -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#REPRODUCTIVE_ORGAN"/>
+    
+
+
+    <!-- REPUBLIC -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#REPUBLIC"/>
+    
+
+
+    <!-- RESOURCE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#RESOURCE"/>
+    
+
+
+    <!-- REST -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#REST"/>
+    
+
+
+    <!-- RESTRAINT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#RESTRAINT"/>
+    
+
+
+    <!-- ROAD -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ROAD"/>
+    
+
+
+    <!-- ROCKY_ONE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ROCKY_ONE"/>
+    
+
+
+    <!-- ROD -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ROD">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#THIN_IMPLEMENT"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#METAL"/>
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#WOOD"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- ROW -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#ROW">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ARRANGEMENTOfROWOf.CHAIR"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CHAIR"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- SATISFACTION -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SATISFACTION">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#CONTENTMENT"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#FULFILLED.GREAT_SATISFACTION"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#GREAT_SATISFACTION"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#FEEL.DESIRE"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#DESIRE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#FULFILLED.GREAT_SATISFACTION"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#GREAT_SATISFACTION"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- SEA -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SEA"/>
+    
+
+
+    <!-- SEGMENT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SEGMENT">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#OF_PIECE"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#FISHINGOf.ROAD"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ROAD"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#FIT.WITH_OTHER"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#WITH_OTHER"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SECTIONOf.ROAD"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ROAD"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- SEVERAL_WORDS -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SEVERAL_WORDS"/>
+    
+
+
+    <!-- SHACKLE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SHACKLE">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#RESTRAINT"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CONFINE.FREEDOM"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#FREEDOM"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#RESTRICT.FREEDOM"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#FREEDOM"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#RESTRICT.SOMETHING"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SOMETHING"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#RESTRAIN.PRISONER"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PRISONER"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#TIE.PRISONER"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PRISONER"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- SHIP -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SHIP"/>
+    
+
+
+    <!-- SILVER -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SILVER">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#METALLIC_ELEMENT"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#PRECIOUS_ELEMENT"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#SOFT_ELEMENT"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#UNIVALENT_ELEMENT"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#WHITE_ELEMENT"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#HAVE.METAL"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#METAL"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#HAVE.THERMAL_CONDUCTIVITY"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#THERMAL_CONDUCTIVITY"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#OCCUR.IN_PHOTOGRAPHY"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#IN_PHOTOGRAPHY"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- SILVERY-WHITE_ELEMENT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SILVERY-WHITE_ELEMENT"/>
+    
+
+
+    <!-- SIMPLER_CHEMICAL -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SIMPLER_CHEMICAL"/>
+    
+
+
+    <!-- SKULL -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SKULL"/>
+    
+
+
+    <!-- SLEEVE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SLEEVE">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ATTACHEDAt.ARMHOLE"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ARMHOLE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PARTOf.GARMENT"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#GARMENT"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- SMALLEST_COMPONENT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SMALLEST_COMPONENT"/>
+    
+
+
+    <!-- SMALL_ARTHROPOD -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SMALL_ARTHROPOD"/>
+    
+
+
+    <!-- SNOUT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SNOUT">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#ANIMAL"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#ELONGATION"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#HEAD"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#NOSE"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- SOFT_ELEMENT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SOFT_ELEMENT"/>
+    
+
+
+    <!-- SOMEONE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SOMEONE"/>
+    
+
+
+    <!-- SOMETHING -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SOMETHING"/>
+    
+
+
+    <!-- SOUTHERN_HEMISPHERE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SOUTHERN_HEMISPHERE"/>
+    
+
+
+    <!-- SOUTHERN_NORTH -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SOUTHERN_NORTH"/>
+    
+
+
+    <!-- SPINAL_CORD -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SPINAL_CORD"/>
+    
+
+
+    <!-- STABILITY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#STABILITY"/>
+    
+
+
+    <!-- STAMEN -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#STAMEN">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#FLOWER"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#REPRODUCTIVE_ORGAN"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- STATE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#STATE"/>
+    
+
+
+    <!-- STATE_OF -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#STATE_OF"/>
+    
+
+
+    <!-- STIFF_FIBER -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#STIFF_FIBER"/>
+    
+
+
+    <!-- STIMULATE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#STIMULATE">
+        <rdfs:subClassOf rdf:resource="http://test.tcc.uag.ufrpe.edu.br#THING"/>
+    </owl:Class>
+    
+
+
+    <!-- STRANGER -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#STRANGER">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#ANYONE"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#FIND"/>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BELONG.IN_ENVIRONMENT"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#IN_ENVIRONMENT"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- STRUGGLE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#STRUGGLE"/>
+    
+
+
+    <!-- SUBSTANCE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SUBSTANCE"/>
+    
+
+
+    <!-- SUGAR -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SUGAR"/>
+    
+
+
+    <!-- SUMMER -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SUMMER"/>
+    
+
+
+    <!-- SUPPORT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SUPPORT"/>
+    
+
+
+    <!-- SURFACE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SURFACE"/>
+    
+
+
+    <!-- SYNTHESIS -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SYNTHESIS">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PROCESSOf.CHEMICAL_COMPOUND_OF_SIMPLER_CHEMICAL"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CHEMICAL_COMPOUND_OF_SIMPLER_CHEMICAL"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PRODUCE.UNION"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#UNION"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PRODUCE.COMPOUND"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#COMPOUND"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PRODUCE.SIMPLER_CHEMICAL"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SIMPLER_CHEMICAL"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- SYSTEME -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#SYSTEME"/>
+    
+
+
+    <!-- TECHNICAL_ASSISTANCE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#TECHNICAL_ASSISTANCE"/>
+    
+
+
+    <!-- TENDER -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#TENDER">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#SOMETHING"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#USEDAs.PAYMENT"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PAYMENT"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- THERMAL_CONDUCTIVITY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#THERMAL_CONDUCTIVITY"/>
+    
+
+
+    <!-- THING -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#THING"/>
+    
+
+
+    <!-- THIN_IMPLEMENT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#THIN_IMPLEMENT"/>
+    
+
+
+    <!-- TIME -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#TIME"/>
+    
+
+
+    <!-- TIMEPIECE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#TIMEPIECE"/>
+    
+
+
+    <!-- TODAY -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#TODAY">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#TODAY"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#WORLD"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- TOP_FERMENTING -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#TOP_FERMENTING"/>
+    
+
+
+    <!-- TOUCH -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#TOUCH">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#EVENTOf.SOMETHING"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SOMETHING"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#InTOUCHOf.HAND"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#HAND"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#TOUCHOf.AIR"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#AIR"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- TOXIC_ELEMENT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#TOXIC_ELEMENT"/>
+    
+
+
+    <!-- TRUE_CREDENCE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#TRUE_CREDENCE"/>
+    
+
+
+    <!-- TUCANA -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#TUCANA"/>
+    
+
+
+    <!-- UNION -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#UNION"/>
+    
+
+
+    <!-- UNIT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#UNIT">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#STATE"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#UNIT"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#DIVISIONOfSTANDARDOfDOLLAROf.CURRENCY"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CURRENCY"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- UNIVALENT_ELEMENT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#UNIVALENT_ELEMENT"/>
+    
+
+
+    <!-- UNLIKE_PARENT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#UNLIKE_PARENT"/>
+    
+
+
+    <!-- UNSUCCESSFUL_ENDING -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#UNSUCCESSFUL_ENDING"/>
+    
+
+
+    <!-- URANIUM -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#URANIUM">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#HEAVY_ELEMENT"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#METALLIC_ELEMENT"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#RADIOACTIVE_ELEMENT"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#SILVERY-WHITE_ELEMENT"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#TOXIC_ELEMENT"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#OCCUR.IN_NUCLEAR_WEAPON"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#IN_NUCLEAR_WEAPON"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- URBAN_AREA -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#URBAN_AREA"/>
+    
+
+
+    <!-- VACATION -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#VACATION">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#LEISURE"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#TIME"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#WORK"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#PLEASURE"/>
+                            <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#REST"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#WEEKSOf.SUMMER"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SUMMER"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- VAPOR -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#VAPOR">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#AIROfPARTICLESOf.SUBSTANCE"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SUBSTANCE"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PARTICLESOf.SUBSTANCE"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#SUBSTANCE"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- VEHICLE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#VEHICLE"/>
+    
+
+
+    <!-- VISCERA -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#VISCERA">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#ABDOMINAL_CAVITY"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#INTERNAL_ORGANS"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- VISUAL_DEFECT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#VISUAL_DEFECT"/>
+    
+
+
+    <!-- WATER -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#WATER"/>
+    
+
+
+    <!-- WHITE_ELEMENT -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#WHITE_ELEMENT"/>
+    
+
+
+    <!-- WIND -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#WIND"/>
+    
+
+
+    <!-- WINDOW -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#WINDOW"/>
+    
+
+
+    <!-- WIRE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#WIRE"/>
+    
+
+
+    <!-- WITH_OTHER -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#WITH_OTHER"/>
+    
+
+
+    <!-- WOMAN -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#WOMAN"/>
+    
+
+
+    <!-- WOOD -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#WOOD"/>
+    
+
+
+    <!-- WOODWORKER -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#WOODWORKER">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#THINGSOf.WOOD"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#WOOD"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- WORD -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#WORD"/>
+    
+
+
+    <!-- WORK -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#WORK"/>
+    
+
+
+    <!-- WORLD -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#WORLD"/>
+    
+
+
+    <!-- YEARS -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#YEARS"/>
+    
+
+
+    <!-- YEAST -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#YEAST"/>
+    
+
+
+    <!-- YOUNG_PEOPLE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#YOUNG_PEOPLE"/>
+    
+
+
+    <!-- test.tcc.uag.ufrpe.edu.br#- -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#-"/>
+    
+
+
+    <!-- UNITE -->
+
+    <owl:Class rdf:about="http://test.tcc.uag.ufrpe.edu.br#D&apos;UNITE"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- AND -->
+
+    <owl:NamedIndividual rdf:about="http://test.tcc.uag.ufrpe.edu.br#AND">
+        <rdf:type rdf:resource="http://test.tcc.uag.ufrpe.edu.br#THING"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- APRIL -->
+
+    <owl:NamedIndividual rdf:about="http://test.tcc.uag.ufrpe.edu.br#APRIL">
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#MONTH"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#FOLLOW.MARCH"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MARCH"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#FOLLOW.MAY"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#MAY"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#FOLLOW.PRECEDING"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#PRECEDING"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ARABIA -->
+
+    <owl:NamedIndividual rdf:about="http://test.tcc.uag.ufrpe.edu.br#ARABIA">
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#GULF"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#IMPORTANT_OIL"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#PENINSULA"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#PERSIAN"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#RED"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#RESOURCE"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#SEA"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- ARABIC -->
+
+    <owl:NamedIndividual rdf:about="http://test.tcc.uag.ufrpe.edu.br#ARABIC">
+        <rdf:type rdf:resource="http://test.tcc.uag.ufrpe.edu.br#ARAB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- BRAGG -->
+
+    <owl:NamedIndividual rdf:about="http://test.tcc.uag.ufrpe.edu.br#BRAGG">
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#CHATTANOOGA"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#BATTLEOf.-"/>
+                                <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#-"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#AMERICANOf.-"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#-"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CIVILOf.-"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#-"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#GRANTOf.-"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#-"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#WAROf.-"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#-"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- BRISTLE -->
+
+    <owl:NamedIndividual rdf:about="http://test.tcc.uag.ufrpe.edu.br#BRISTLE">
+        <rdf:type>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#COARSE_HAIR"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#FILAMENT"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#NATURAL_SYNTHETIC"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#STIFF_FIBER"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- CONSIST -->
+
+    <owl:NamedIndividual rdf:about="http://test.tcc.uag.ufrpe.edu.br#CONSIST">
+        <rdf:type rdf:resource="http://test.tcc.uag.ufrpe.edu.br#THING"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- MEXICO -->
+
+    <owl:NamedIndividual rdf:about="http://test.tcc.uag.ufrpe.edu.br#MEXICO">
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#AMERICA"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#INDEPENDENT_SPAIN"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#REPUBLIC"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#SOUTHERN_NORTH"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- TUCANA -->
+
+    <owl:NamedIndividual rdf:about="http://test.tcc.uag.ufrpe.edu.br#TUCANA">
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#FAINT_CONSTELLATION"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#LARGE_CONSTELLATION"/>
+                    <rdf:Description rdf:about="http://test.tcc.uag.ufrpe.edu.br#SOUTHERN_HEMISPHERE"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://test.tcc.uag.ufrpe.edu.br#CONTAIN.OF_CLOUD"/>
+                        <owl:someValuesFrom rdf:resource="http://test.tcc.uag.ufrpe.edu.br#OF_CLOUD"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.0.2.20150417-2043) http://owlapi.sourceforge.net -->
+
